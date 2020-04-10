@@ -1,4 +1,4 @@
-package com.codewars;
+package com.codewars.kyu7;
 
 public class ResponsibleDrinking {
 
