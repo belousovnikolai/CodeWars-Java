@@ -2,3 +2,4 @@
 codewarsSolutions.iml
 target/
 src/main/java/com/codewars/Main.java
+helper/
