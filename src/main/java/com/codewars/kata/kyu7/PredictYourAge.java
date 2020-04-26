@@ -1,4 +1,4 @@
-package com.codewars.kyu7;
+package com.codewars.kata.kyu7;
 
 public class PredictYourAge {
     public static int predictAge(int age1, int age2, int age3, int age4, int age5, int age6, int age7, int age8) {

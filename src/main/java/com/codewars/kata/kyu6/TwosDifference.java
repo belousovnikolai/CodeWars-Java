@@ -1,4 +1,4 @@
-package com.codewars.kyu6;
+package com.codewars.kata.kyu6;
 
 import java.util.Map;
 import java.util.TreeMap;

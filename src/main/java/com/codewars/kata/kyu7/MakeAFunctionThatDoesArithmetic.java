@@ -1,4 +1,4 @@
-package com.codewars.kyu7;
+package com.codewars.kata.kyu7;
 
 public class MakeAFunctionThatDoesArithmetic {
     public static int arithmetic(int a, int b, String operator) {

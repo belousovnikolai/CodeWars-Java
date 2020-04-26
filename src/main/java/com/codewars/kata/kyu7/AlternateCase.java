@@ -1,4 +1,4 @@
-package com.codewars.kyu7;
+package com.codewars.kata.kyu7;
 
 public class AlternateCase {
     public static String alternateCase(final String string) {

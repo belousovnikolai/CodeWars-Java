@@ -1,4 +1,4 @@
-package com.codewars.kyu6;
+package com.codewars.kata.kyu6;
 
 public class NumberZooPatrol {
     public static int findMissingNumber(int[] numbers) {

@@ -1,4 +1,4 @@
-package com.codewars.kyu6;
+package com.codewars.kata.kyu6;
 
 public class DashatizeIt {
     public static String dashatize(int num) {
