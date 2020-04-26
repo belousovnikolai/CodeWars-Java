@@ -1,5 +1,5 @@
 .idea/
-javaCodewarsSolutions.iml
+CodeWars-Java.iml
 target/
 src/main/java/com/codewars/Main.java
 helper/
