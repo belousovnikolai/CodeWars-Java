@@ -7,18 +7,17 @@ public class SimpleEncryptionAlternatingSplit {
         if (text == null || text.isEmpty()) return text;
         if (n <= 0) return text;
 
-        String[] digits = text.split("");
-        String everySecond = "";
-        String other = "";
+        StringBuilder everySecond = new StringBuilder();
+        StringBuilder other = new StringBuilder();
 
-        for (int i = 0; i < digits.length; i++) {
+        for (int i = 0; i < text.length(); i++) {
             if (i % 2 != 0) {
-                everySecond += digits[i]; // TODO: check string concat in loop
+                everySecond.append(text.charAt(i));
             } else {
-                other += digits[i]; // TODO: check string concat in loop
+                other.append(text.charAt(i));
             }
         }
-        return encrypt(everySecond.concat(other), n - 1);
+        return encrypt(everySecond.append(other).toString(), n - 1);
     }
 
     public static String decrypt(final String encryptedText, final int n) {
@@ -30,12 +29,12 @@ public class SimpleEncryptionAlternatingSplit {
 
         String[] everySecond = Arrays.copyOfRange(digits, 0, digits.length / 2);
         for (int i = 0; i < everySecond.length; i++) {
-            decrypted[(i * 2) + 1] = everySecond[i]; // TODO: check string concat in loop
+            decrypted[(i * 2) + 1] = everySecond[i];
         }
 
         String[] other = Arrays.copyOfRange(digits, digits.length / 2, digits.length);
         for (int i = 0; i < other.length; i++) {
-            decrypted[i * 2] = other[i]; // TODO: check string concat in loop
+            decrypted[i * 2] = other[i];
         }
 
         return decrypt(String.join("", decrypted), n - 1);
