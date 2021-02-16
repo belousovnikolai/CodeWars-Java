@@ -1,4 +1,4 @@
 # CodeWars-Java
 Kata from 'codewars.com' implemented with Java
 
-![codewars badge](https://www.codewars.com/users/deadfish/badges/small "My codewars badge")
+![my codewars badge here](https://www.codewars.com/users/deadfish/badges/small "My codewars stats badge")
