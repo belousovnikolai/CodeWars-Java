@@ -1,5 +1,10 @@
 package com.codewars.kata.kyu7;
 
+/*
+ * Alternate Case
+ * https://www.codewars.com/kata/57a62154cf1fa5b25200031e
+ */
+
 public class AlternateCase {
     public static String alternateCase(final String string) {
         StringBuilder alternated = new StringBuilder();

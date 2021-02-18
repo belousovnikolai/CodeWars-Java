@@ -1,8 +1,9 @@
 package com.codewars.kata.kyu7;
 
 /*
-** https://www.codewars.com/kata/554b4ac871d6813a03000035
-*/
+ * Highest And Lowest
+ * https://www.codewars.com/kata/554b4ac871d6813a03000035
+ */
 
 import java.util.Arrays;
 

@@ -3,4 +3,3 @@ CodeWars-Java.iml
 target/
 src/main/java/com/codewars/Main.java
 src/main/java/com/codewars/helper
-src/test

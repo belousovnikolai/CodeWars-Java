@@ -1,5 +1,10 @@
 package com.codewars.kata.kyu7;
 
+/*
+ * Responsible Drinking
+ * https://www.codewars.com/kata/5aee86c5783bb432cd000018
+ */
+
 public class ResponsibleDrinking {
 
     public static String hydrate(String drinkString) {

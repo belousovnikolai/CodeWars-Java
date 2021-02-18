@@ -1,5 +1,10 @@
 package com.codewars.kata.kyu7;
 
+/*
+ * Convert Time To String
+ * https://www.codewars.com/kata/5502ddd734137e90af000f62
+ */
+
 public class ConvertTimeToString {
     public static String convertTime(int timeDiff) {
         int seconds = timeDiff;

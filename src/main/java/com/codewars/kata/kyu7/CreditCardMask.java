@@ -1,5 +1,10 @@
 package com.codewars.kata.kyu7;
 
+/*
+ * Credit Card Mask
+ * https://www.codewars.com/kata/5412509bd436bd33920011bc
+ */
+
 public class CreditCardMask {
     public static String maskify(String str) {
         if (str.length() < 4) {

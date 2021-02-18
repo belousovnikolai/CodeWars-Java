@@ -1,5 +1,10 @@
 package com.codewars.kata.kyu7;
 
+/*
+ * Array Element Parity
+ * https://www.codewars.com/kata/5a092d9e46d843b9db000064
+ */
+
 import java.util.Arrays;
 
 public class ArrayElementParity {
