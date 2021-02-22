@@ -1,5 +1,10 @@
 package com.codewars.kata.kyu6;
 
+/*
+ * Highest Scoring Word
+ * https://www.codewars.com/kata/57eb8fcdf670e99d9b000272
+ */
+
 import java.util.Arrays;
 import java.util.Comparator;
 

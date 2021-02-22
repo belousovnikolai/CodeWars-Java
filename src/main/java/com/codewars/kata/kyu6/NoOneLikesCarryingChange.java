@@ -1,6 +1,11 @@
 package com.codewars.kata.kyu6;
 
-import java.util.*;
+/*
+ * No One Likes Carrying Change
+ * https://www.codewars.com/kata/58dfc0d8ca6895cb4e00005c
+ */
+
+import java.util.Arrays;
 
 public class NoOneLikesCarryingChange {
     public static int solve(int amount, int[] coinAmounts) {

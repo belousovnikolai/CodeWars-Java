@@ -1,8 +1,9 @@
 package com.codewars.kata.kyu6;
 
 /*
-** https://www.codewars.com/kata/5bb148b840196d1be50000b1
-*/
+ * Word To Initial Number
+ * https://www.codewars.com/kata/5bb148b840196d1be50000b1
+ */
 
 import java.util.HashMap;
 import java.util.Map;

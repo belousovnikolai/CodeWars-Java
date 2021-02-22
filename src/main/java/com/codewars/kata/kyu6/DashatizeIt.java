@@ -1,5 +1,10 @@
 package com.codewars.kata.kyu6;
 
+/*
+ * Dashatize It
+ * https://www.codewars.com/kata/dashatize-it/
+ */
+
 public class DashatizeIt {
     public static String dashatize(int num) {
 

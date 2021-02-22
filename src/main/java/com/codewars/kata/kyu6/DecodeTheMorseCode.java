@@ -1,8 +1,9 @@
 package com.codewars.kata.kyu6;
 
 /*
-** https://www.codewars.com/kata/54b724efac3d5402db00065e
-*/
+ * Decode The Morse DecodeTheMorseCodeCode
+ * https://www.codewars.com/kata/54b724efac3d5402db00065e
+ */
 
 import com.codewars.helper.MorseCode;
 

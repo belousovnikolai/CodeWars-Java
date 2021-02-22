@@ -1,8 +1,9 @@
 package com.codewars.kata.kyu6;
 
 /*
-** https://www.codewars.com/kata/572bbd7c72a38bd878000a73
-*/
+ * Fraction
+ * https://www.codewars.com/kata/572bbd7c72a38bd878000a73
+ */
 
 public class Fraction implements Comparable<Fraction> {
 

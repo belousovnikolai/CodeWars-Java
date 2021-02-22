@@ -1,0 +1,41 @@
+package com.codewars.kata.kyu6;
+
+import org.testng.annotations.Test;
+
+import static com.codewars.kata.kyu6.NumberZooPatrol.findMissingNumber;
+import static org.testng.Assert.assertEquals;
+
+public class NumberZooPatrolTest {
+
+    @Test
+    public void testDescriptionExamples() {
+        assertEquals(2, findMissingNumber(new int[]{1, 3}));
+        assertEquals(1, findMissingNumber(new int[]{2, 3, 4}));
+        assertEquals(12, findMissingNumber(new int[]{13, 11, 10, 3, 2, 1, 4, 5, 6, 9, 7, 8}));
+    }
+
+    @Test
+    public void testPerformanceIsLinear() {
+        int[] numbers = generateNumbers(1_000_000, 66_667);
+        for (int i = 0; i < 249_999; i++) {
+            int temp = numbers[i * 2];
+            numbers[i * 2] = numbers[999_997 - i * 2];
+            numbers[999_997 - i * 2] = temp;
+        }
+        for (int i = 0; i < 100; i++) {
+            findMissingNumber(numbers.clone());
+        }
+    }
+
+    private static int[] generateNumbers(int bound, int missingNumber) {
+        if (missingNumber < 1 || missingNumber > bound)
+            throw new IllegalArgumentException("Missing number is not in allowed range");
+        int[] numbers = new int[bound - 1];
+        int pos = 0;
+        for (int i = 1; i <= bound; i++)
+            if (i != missingNumber)
+                numbers[pos++] = i;
+        return numbers;
+    }
+
+}

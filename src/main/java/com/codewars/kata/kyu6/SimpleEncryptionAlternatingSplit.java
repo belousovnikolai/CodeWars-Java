@@ -1,8 +1,14 @@
 package com.codewars.kata.kyu6;
 
+/*
+ * Simple Encryption #1 - Alternating Split
+ * https://www.codewars.com/kata/57814d79a56c88e3e0000786
+ */
+
 import java.util.Arrays;
 
 public class SimpleEncryptionAlternatingSplit {
+
     public static String encrypt(final String text, final int n) {
         if (text == null || text.isEmpty()) return text;
         if (n <= 0) return text;

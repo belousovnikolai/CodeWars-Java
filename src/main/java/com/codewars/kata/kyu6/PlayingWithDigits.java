@@ -1,8 +1,9 @@
 package com.codewars.kata.kyu6;
 
 /*
-*  https://www.codewars.com/kata/5552101f47fc5178b1000050
-*/
+ * Playing With Digits
+ * https://www.codewars.com/kata/5552101f47fc5178b1000050
+ */
 
 public class PlayingWithDigits {
 
