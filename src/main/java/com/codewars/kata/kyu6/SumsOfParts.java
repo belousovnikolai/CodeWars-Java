@@ -5,21 +5,23 @@ package com.codewars.kata.kyu6;
  * https://www.codewars.com/kata/5ce399e0047a45001c853c2b
  */
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class SumsOfParts {
+
     public static int[] sumParts(int[] ls) {
-        int[] result = new int[ls.length + 1];
+        if (ls.length == 0) return new int[]{ls.length};
 
-        for (int i = 0; i <= ls.length; i++) {
-            int[] subArray = Arrays.copyOfRange(ls, i, ls.length + 1);
-            int sum = 0;
+        int sum = Arrays.stream(ls).sum();
+        List<Integer> res = new ArrayList<>();
+        res.add(sum);
 
-            for (int val : subArray) {
-                sum += val;
-            }
-            result[i] = sum;
+        for (int i = 0; i < ls.length; i++) {
+            sum -= ls[i];
+            res.add(sum);
         }
-        return result;
+        return res.stream().mapToInt(a -> a).toArray();
     }
 }
