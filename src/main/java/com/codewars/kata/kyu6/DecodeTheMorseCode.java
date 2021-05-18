@@ -5,12 +5,13 @@ package com.codewars.kata.kyu6;
  * https://www.codewars.com/kata/54b724efac3d5402db00065e
  */
 
-import com.codewars.helper.MorseCode;
-
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.stream.Collectors;
 
 public class DecodeTheMorseCode {
+
+    private static HashMap<Integer, String> codes;
 
     public static String decode(String morseCode) {
         String[] arrayOfCodes = morseCode.split(" {3}");
@@ -26,4 +27,12 @@ public class DecodeTheMorseCode {
         return String.join(" ", result);
     }
 
+    // Ignore. Dummy class, added as a stub
+    private static class MorseCode {
+        private static HashMap<Integer, String> codes;
+
+        public static String get(String code) {
+            return codes.get(code);
+        }
+    }
 }
