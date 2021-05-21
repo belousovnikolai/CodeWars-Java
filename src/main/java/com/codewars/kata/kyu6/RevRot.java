@@ -1,5 +1,10 @@
 package com.codewars.kata.kyu6;
 
+/*
+ * Reverse or rotate?
+ * https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991
+ */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
